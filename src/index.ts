@@ -27,11 +27,11 @@ import Plateau from './models/Plateau'
     }, {
       type: 'text',
       name: 'exploration',
-      message: 'Exploration: '
+      message: 'Exploration ("M" = move, "R" = rotate right, "L" = rotate left): '
     }, {
       type: 'select',
       name: 'addAnotherRover',
-      message: 'Add another Rover? ("M" = move, "R" = rotate right, "L" = rotate left)',
+      message: 'Add another Rover?',
       choices: [
         { title: 'Yes', value: true },
         { title: 'No', value: false }
